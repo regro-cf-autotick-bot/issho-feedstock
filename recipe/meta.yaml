@@ -1,5 +1,5 @@
 {% set name = "issho" %}
-{% set version = "0.4.2" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 70478e25ea5f17902beb3ab5cbab3c512c20957be5a6bd125d3ab507a5ede9a6 
+  sha256: e994a9c91249152d9f36f9b5e76fe264daebda038a9702b8972224acaa40928d 
 
 build:
   noarch: python

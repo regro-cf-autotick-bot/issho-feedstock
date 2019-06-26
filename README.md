@@ -7,9 +7,9 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: issho allows simple access to commands on a remote machine over ssh from Python
+Summary: simple access to commands on a remote machine over ssh
 
-issho and intuitive wrapper over paramiko for configuring and talking to a remote host.
+issho is an intuitive wrapper over paramiko for configuring and talking to a remote host.
 keyring is used to manage secrets locally.
 issho is designed such that interacting with a single, heavily used remote machine
 should be easy, and working with more than one remote machine should be simple.
